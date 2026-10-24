@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MK Mubashera | HR Professional & Admin Expert</title>
+  <meta name="description" content="Portfolio of MK Mubashera — MBA in Human Resource Management, skilled in administration, customer service, and office support based in Dubai, UAE." />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== CUSTOM CURSOR ===== -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursor-follower"></div>
+
+  <!-- ===== LOADER ===== -->
+  <div class="loader" id="loader">
+    <div class="loader-inner">
+      <div class="loader-logo">MK</div>
+      <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-brand">
+      <span class="brand-dot"></span>
+      <span>MK Mubashera</span>
+    </div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#hero" class="nav-link active" data-section="hero">Home</a></li>
+      <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+      <li><a href="#experience" class="nav-link" data-section="experience">Experience</a></li>
+      <li><a href="#skills" class="nav-link" data-section="skills">Skills</a></li>
+      <li><a href="#education" class="nav-link" data-section="education">Education</a></li>
+      <li><a href="#certifications" class="nav-link" data-section="certifications">Certifications</a></li>
+      <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-particles" id="particles"></div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Available for Opportunities
+      </div>
+      <h1 class="hero-title">
+        <span class="title-line">MK</span>
+        <span class="title-line accent">Mubashera</span>
+      </h1>
+      <div class="hero-roles">
+        <span class="role-tag">Administration</span>
+        <span class="role-divider">|</span>
+        <span class="role-tag">HR Management</span>
+        <span class="role-divider">|</span>
+        <span class="role-tag">Customer Service</span>
+      </div>
+      <p class="hero-subtitle">MBA Student · HR Counselor · Dubai, UAE</p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn btn-primary">
+          <i class="fas fa-paper-plane"></i> Get In Touch
+        </a>
+        <a href="#" onclick="downloadResume(); return false;" class="btn btn-download" id="hero-download-btn">
+          <i class="fas fa-download"></i> Download Resume
+        </a>
+        <a href="#about" class="btn btn-outline">
+          <i class="fas fa-user"></i> Learn More
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-num">2+</span>
+          <span class="stat-label">Internships</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num">6+</span>
+          <span class="stat-label">Certifications</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num">MBA</span>
+          <span class="stat-label">Pursuing</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Who I Am</span>
+        <h2 class="section-title">About <span class="accent">Me</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-grid">
+
+        <div class="about-text-col" data-aos="fade-left">
+          <div class="about-greeting">Hello! I'm Mubashera 👋</div>
+          <h3 class="about-heading">A motivated & adaptable <span class="accent">HR Professional</span></h3>
+          <p class="about-desc">
+            A passionate postgraduate student currently pursuing an <strong>MBA in Human Resource Management</strong>, 
+            backed by a solid <strong>Bachelor's degree in Computer Science</strong>. I bring a unique blend of 
+            technical and interpersonal expertise to every role.
+          </p>
+          <p class="about-desc">
+            I possess strong communication, organizational, and teamwork skills — a quick learner with a positive 
+            attitude and a genuine willingness to embrace new challenges. I thrive in dynamic environments and am 
+            committed to contributing to organizational success.
+          </p>
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <div class="highlight-icon"><i class="fas fa-users"></i></div>
+              <div class="highlight-text">
+                <strong>Team Leadership</strong>
+                <span>Mentoring & collaboration</span>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-icon"><i class="fas fa-chart-line"></i></div>
+              <div class="highlight-text">
+                <strong>Strategic Thinking</strong>
+                <span>Data-driven decisions</span>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-icon"><i class="fas fa-cogs"></i></div>
+              <div class="highlight-text">
+                <strong>Process Optimization</strong>
+                <span>Administrative excellence</span>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <div class="highlight-icon"><i class="fas fa-globe"></i></div>
+              <div class="highlight-text">
+                <strong>Multilingual</strong>
+                <span>English & Tamil</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-cta-row">
+            <a href="#contact" class="btn btn-primary mt-20">
+              <i class="fas fa-paper-plane"></i> Hire Me
+            </a>
+            <a href="#" onclick="downloadResume(); return false;" class="btn btn-download mt-20" id="about-download-btn">
+              <i class="fas fa-file-pdf"></i> Download Resume
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE SECTION ===== -->
+  <section class="section experience" id="experience">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">My Journey</span>
+        <h2 class="section-title">Work <span class="accent">Experience</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="timeline">
+
+        <!-- Job -->
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-dot">
+            <i class="fas fa-briefcase"></i>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div class="timeline-title-group">
+                <h3 class="job-title">HR Counselor</h3>
+                <span class="company-name">Immek Softech Academy</span>
+              </div>
+              <div class="timeline-meta">
+                <span class="timeline-date"><i class="fas fa-calendar-alt"></i> Mar 2026 – Oct 2026</span>
+                <span class="job-type full-time">Full-Time</span>
+              </div>
+            </div>
+            <ul class="timeline-points">
+              <li>Developed and executed comprehensive marketing strategies and campaigns aligned with company goals and objectives</li>
+              <li>Led, mentored, and managed a high-performing marketing team, fostering a collaborative and results-driven work environment</li>
+              <li>Monitored brand consistency across all marketing channels and materials</li>
+            </ul>
+            <div class="timeline-tags">
+              <span class="tag">HR Management</span>
+              <span class="tag">Team Leadership</span>
+              <span class="tag">Marketing Strategy</span>
+              <span class="tag">Brand Management</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Internship 1 -->
+        <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+          <div class="timeline-dot intern">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div class="timeline-title-group">
+                <h3 class="job-title">Intern</h3>
+                <span class="company-name">Edusphere Solution, Puducherry</span>
+              </div>
+              <div class="timeline-meta">
+                <span class="timeline-date"><i class="fas fa-calendar-alt"></i> Jun 2024 – Jul 2024</span>
+                <span class="job-type internship">Internship</span>
+              </div>
+            </div>
+            <ul class="timeline-points">
+              <li>Successfully managed multiple simultaneous tasks, maintaining organization with priority-based to-do systems</li>
+              <li>Built a professional network and leveraged connections for learning and growth</li>
+              <li>Developed strong communication and workplace culture understanding, along with critical thinking skills</li>
+            </ul>
+            <div class="timeline-tags">
+              <span class="tag">Multitasking</span>
+              <span class="tag">Networking</span>
+              <span class="tag">Critical Thinking</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Internship 2 -->
+        <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+          <div class="timeline-dot intern">
+            <i class="fas fa-database"></i>
+          </div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div class="timeline-title-group">
+                <h3 class="job-title">Data & AI Intern</h3>
+                <span class="company-name">Datanerdz.AI</span>
+              </div>
+              <div class="timeline-meta">
+                <span class="timeline-date"><i class="fas fa-calendar-alt"></i> Dec 2024</span>
+                <span class="job-type internship">Internship</span>
+              </div>
+            </div>
+            <ul class="timeline-points">
+              <li>Worked with large datasets to identify trends, automate reporting, and enhance decision-making processes</li>
+              <li>Collaborated with a cross-functional team to deploy AI-driven solutions in a real-world environment</li>
+            </ul>
+            <div class="timeline-tags">
+              <span class="tag">Data Analysis</span>
+              <span class="tag">AI Solutions</span>
+              <span class="tag">Automation</span>
+              <span class="tag">Cross-functional Teams</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS SECTION ===== -->
+  <section class="section skills-section" id="skills">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">What I Do</span>
+        <h2 class="section-title">My <span class="accent">Skills</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-category" data-aos="fade-up">
+          <div class="skill-cat-icon"><i class="fas fa-users-cog"></i></div>
+          <h3 class="skill-cat-title">HR & Administration</h3>
+          <div class="skill-items">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>HR Administration</span><span class="skill-pct">90%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Administrative Support</span><span class="skill-pct">85%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Organizational Skills</span><span class="skill-pct">88%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+          <div class="skill-cat-icon"><i class="fas fa-comments"></i></div>
+          <h3 class="skill-cat-title">Communication</h3>
+          <div class="skill-items">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Communication & Interpersonal</span><span class="skill-pct">92%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="92"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Customer Service</span><span class="skill-pct">87%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="87"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Teamwork & Collaboration</span><span class="skill-pct">90%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+          <div class="skill-cat-icon"><i class="fas fa-laptop"></i></div>
+          <h3 class="skill-cat-title">Technical & Tools</h3>
+          <div class="skill-items">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Microsoft Office</span><span class="skill-pct">85%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Data Analysis</span><span class="skill-pct">75%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Critical Thinking</span><span class="skill-pct">88%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Skill Tags -->
+      <div class="skills-tags-section" data-aos="fade-up">
+        <h3 class="tags-title">Core Competencies</h3>
+        <div class="skills-tags">
+          <span class="skill-tag"><i class="fas fa-check"></i> Communication</span>
+          <span class="skill-tag"><i class="fas fa-check"></i> Critical Thinking</span>
+          <span class="skill-tag"><i class="fas fa-check"></i> Teamwork</span>
+          <span class="skill-tag"><i class="fas fa-check"></i> Organization</span>
+          <span class="skill-tag"><i class="fas fa-check"></i> Microsoft Office</span>
+          <span class="skill-tag"><i class="fas fa-check"></i> HR Administration</span>
+          <span class="skill-tag"><i class="fas fa-check"></i> Administrative Support</span>
+          <span class="skill-tag"><i class="fas fa-check"></i> Customer Service</span>
+          <span class="skill-tag"><i class="fas fa-check"></i> Problem Solving</span>
+          <span class="skill-tag"><i class="fas fa-check"></i> Leadership</span>
+          <span class="skill-tag"><i class="fas fa-check"></i> Data Analysis</span>
+          <span class="skill-tag"><i class="fas fa-check"></i> AI Tools</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION SECTION ===== -->
+  <section class="section education" id="education">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Academic Background</span>
+        <h2 class="section-title">My <span class="accent">Education</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="edu-grid">
+        <div class="edu-card featured" data-aos="fade-up">
+          <div class="edu-icon"><i class="fas fa-university"></i></div>
+          <div class="edu-badge">Current</div>
+          <h3 class="edu-degree">Master of Business Administration</h3>
+          <span class="edu-field">Human Resource Management (HRM)</span>
+          <p class="edu-institution"><i class="fas fa-map-marker-alt"></i> VISTAS, Chennai</p>
+          <p class="edu-year"><i class="fas fa-calendar"></i> 2025 – Pursuing</p>
+          <div class="edu-progress">
+            <div class="edu-progress-bar" data-width="50"></div>
+          </div>
+          <span class="edu-progress-label">In Progress</span>
+        </div>
+
+        <div class="edu-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="edu-icon"><i class="fas fa-laptop-code"></i></div>
+          <h3 class="edu-degree">Bachelor of Science</h3>
+          <span class="edu-field">Computer Science</span>
+          <p class="edu-institution"><i class="fas fa-map-marker-alt"></i> SMVEC, Puducherry</p>
+          <p class="edu-year"><i class="fas fa-calendar"></i> 2022 – 2025</p>
+          <div class="edu-progress">
+            <div class="edu-progress-bar" data-width="100"></div>
+          </div>
+          <span class="edu-progress-label">Completed</span>
+        </div>
+
+        <div class="edu-card" data-aos="fade-up" data-aos-delay="150">
+          <div class="edu-icon"><i class="fas fa-school"></i></div>
+          <h3 class="edu-degree">Higher Secondary</h3>
+          <span class="edu-field">Class XII</span>
+          <p class="edu-institution"><i class="fas fa-star"></i> Score: 68.83%</p>
+          <p class="edu-year"><i class="fas fa-calendar"></i> Completed</p>
+          <div class="edu-progress">
+            <div class="edu-progress-bar" data-width="69"></div>
+          </div>
+          <span class="edu-progress-label">68.83%</span>
+        </div>
+
+        <div class="edu-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="edu-icon"><i class="fas fa-book"></i></div>
+          <h3 class="edu-degree">Secondary School</h3>
+          <span class="edu-field">Class X</span>
+          <p class="edu-institution"><i class="fas fa-star"></i> Score: 57.2%</p>
+          <p class="edu-year"><i class="fas fa-calendar"></i> Completed</p>
+          <div class="edu-progress">
+            <div class="edu-progress-bar" data-width="57"></div>
+          </div>
+          <span class="edu-progress-label">57.2%</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CERTIFICATIONS SECTION ===== -->
+  <section class="section certifications" id="certifications">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Credentials</span>
+        <h2 class="section-title">My <span class="accent">Certifications</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="cert-grid">
+
+        <div class="cert-card" data-aos="zoom-in">
+          <div class="cert-icon-wrap">
+            <i class="fas fa-robot"></i>
+          </div>
+          <div class="cert-body">
+            <h3>Introduction to Artificial Intelligence</h3>
+            <span class="cert-issuer">Professional Development</span>
+          </div>
+          <div class="cert-glow"></div>
+        </div>
+
+        <div class="cert-card" data-aos="zoom-in" data-aos-delay="60">
+          <div class="cert-icon-wrap">
+            <i class="fab fa-js-square"></i>
+          </div>
+          <div class="cert-body">
+            <h3>JavaScript Programming</h3>
+            <span class="cert-issuer">Infosys Springboard</span>
+          </div>
+          <div class="cert-glow"></div>
+        </div>
+
+        <div class="cert-card" data-aos="zoom-in" data-aos-delay="120">
+          <div class="cert-icon-wrap">
+            <i class="fas fa-briefcase"></i>
+          </div>
+          <div class="cert-body">
+            <h3>TCS ION Career Edge</h3>
+            <span class="cert-issuer">TCS – Young Professional</span>
+          </div>
+          <div class="cert-glow"></div>
+        </div>
+
+        <div class="cert-card" data-aos="zoom-in" data-aos-delay="180">
+          <div class="cert-icon-wrap">
+            <i class="fas fa-code"></i>
+          </div>
+          <div class="cert-body">
+            <h3>Full Stack Web Development</h3>
+            <span class="cert-issuer">Udemy</span>
+          </div>
+          <div class="cert-glow"></div>
+        </div>
+
+        <div class="cert-card" data-aos="zoom-in" data-aos-delay="240">
+          <div class="cert-icon-wrap">
+            <i class="fab fa-google"></i>
+          </div>
+          <div class="cert-body">
+            <h3>Advanced Google Analytics</h3>
+            <span class="cert-issuer">Google</span>
+          </div>
+          <div class="cert-glow"></div>
+        </div>
+
+        <div class="cert-card" data-aos="zoom-in" data-aos-delay="300">
+          <div class="cert-icon-wrap">
+            <i class="fab fa-react"></i>
+          </div>
+          <div class="cert-body">
+            <h3>React.js Development</h3>
+            <span class="cert-issuer">Infosys Springboard</span>
+          </div>
+          <div class="cert-glow"></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-tag">Get In Touch</span>
+        <h2 class="section-title">Contact <span class="accent">Me</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info" data-aos="fade-right">
+          <h3 class="contact-heading">Let's Connect!</h3>
+          <p class="contact-text">
+            I'm actively looking for opportunities in HR, Administration, and Customer Service roles. 
+            Feel free to reach out — I'd love to discuss how I can contribute to your organization.
+          </p>
+          <div class="contact-details">
+            <a href="tel:+9710524822310" class="contact-detail-item" id="contact-phone-uae">
+              <div class="contact-icon"><i class="fas fa-phone"></i></div>
+              <div class="contact-detail-text">
+                <span class="detail-label">Phone (UAE)</span>
+                <span class="detail-value">+971 0524822310</span>
+              </div>
+            </a>
+            <a href="tel:+919443181286" class="contact-detail-item" id="contact-phone-india">
+              <div class="contact-icon"><i class="fas fa-phone-volume"></i></div>
+              <div class="contact-detail-text">
+                <span class="detail-label">Phone (India)</span>
+                <span class="detail-value">+91 9443181286</span>
+              </div>
+            </a>
+            <a href="mailto:mkmuba567@gmail.com" class="contact-detail-item" id="contact-email">
+              <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+              <div class="contact-detail-text">
+                <span class="detail-label">Email</span>
+                <span class="detail-value">mkmuba567@gmail.com</span>
+              </div>
+            </a>
+            <div class="contact-detail-item" id="contact-location">
+              <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div class="contact-detail-text">
+                <span class="detail-label">Location</span>
+                <span class="detail-value">Dubai, UAE</span>
+              </div>
+            </div>
+            <a href="https://www.linkedin.com/in/mk-mubashera-31a628266" target="_blank" class="contact-detail-item" id="contact-linkedin">
+              <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
+              <div class="contact-detail-text">
+                <span class="detail-label">LinkedIn</span>
+                <span class="detail-value">mk-mubashera-31a628266</span>
+              </div>
+            </a>
+          </div>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/mk-mubashera-31a628266" target="_blank" class="social-link" id="social-linkedin" aria-label="LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="mailto:mkmuba567@gmail.com" class="social-link" id="social-email" aria-label="Email">
+              <i class="fas fa-envelope"></i>
+            </a>
+            <a href="tel:+9710524822310" class="social-link" id="social-phone-uae" aria-label="Call UAE (+971 0524822310)" title="Call UAE: +971 0524822310">
+              <i class="fas fa-phone"></i>
+            </a>
+            <a href="tel:+919443181286" class="social-link" id="social-phone-india" aria-label="Call India (+91 9443181286)" title="Call India: +91 9443181286">
+              <i class="fas fa-phone-volume"></i>
+            </a>
+            <a href="https://wa.me/971524822310" target="_blank" class="social-link" id="social-whatsapp" aria-label="WhatsApp" title="WhatsApp: +971 0524822310">
+              <i class="fab fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap" data-aos="fade-left">
+          <form class="contact-form" id="contact-form">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <div class="input-wrap">
+                <i class="fas fa-user"></i>
+                <input type="text" id="name" name="name" placeholder="John Doe" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <div class="input-wrap">
+                <i class="fas fa-envelope"></i>
+                <input type="email" id="email" name="email" placeholder="john@example.com" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <div class="input-wrap">
+                <i class="fas fa-tag"></i>
+                <input type="text" id="subject" name="subject" placeholder="Job Opportunity / Collaboration" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <div class="input-wrap textarea-wrap">
+                <i class="fas fa-comment-alt"></i>
+                <textarea id="message" name="message" rows="5" placeholder="Tell me about the opportunity..." required></textarea>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full" id="send-btn">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+            <div class="form-success" id="form-success">
+              <i class="fas fa-check-circle"></i> Message sent successfully!
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">MK Mubashera</div>
+      <p class="footer-text">MBA-HRM · HR Counselor · Dubai, UAE</p>
+      <p class="footer-copy">© 2026 MK Mubashera. Crafted with <span class="accent">♥</span></p>
+    </div>
+  </footer>
+
+  <script src="resume-download.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
